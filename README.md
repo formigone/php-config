@@ -12,7 +12,7 @@ Suppose your application exists in three environments: `development`, `stage`, a
 
 As an organized developer, you'll create a `config` directory somewhere in your project, where you'll store the following files:
 
-```
+```javascript
 /project
   /config
      default.json
@@ -65,7 +65,7 @@ As an organized developer, you'll create a `config` directory somewhere in your 
 
 You'll then have a single config object for whatever environment you're in, where `default.json` and the environment-specific `.json` object are merged together, with the default values being overwritten by the environment values (using a shallow merge).
 
-```
+```php
 $env = getenv('APP_ENV');
 $appRootPath = __DIR__;
 
