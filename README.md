@@ -8,7 +8,7 @@ The goal of this package is to help you manage configuration files separated by 
 
 ### How it works
 
-Suppose your environment has three environments: `development`, `stage`, and `production`. Each environment has its own unique configurations, and all three share some configuration in common.
+Suppose your application exists in three environments: `development`, `stage`, and `production`. Each environment has its own unique configurations, and all three share some configuration in common.
 
 As an organized developer, you'll create a `config` directory somewhere in your project, where you'll store the following files:
 
