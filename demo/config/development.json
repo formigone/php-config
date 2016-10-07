@@ -1,0 +1,7 @@
+{
+  "devOnly": "This value only exists in development.json",
+  "numbers": {
+    "description": "In development, these values are `10 < N < 100`",
+    "values": [15, 16, 23, 42]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "defOnly": "This value only exists in default.json",
+  "numbers": {
+    "description": "By default, these values are `0 < N < 10`",
+    "values": [1, 2, 3]
+  },
+  "app": {
+    "views": {
+      "cache": false
+    }
+  },
+  "d5": {
+    "d4": {
+      "d3": {
+        "d2": {
+          "d1": "Value in d5.d4.d3.d2.d1"
+        }
+      }
+    }
+  }
+}

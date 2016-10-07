@@ -1,0 +1,17 @@
+{
+  "prodOnly": "This value only exists in production.json",
+  "numbers": {
+    "description": "In production, these values are `100 < N < 1000`",
+    "values": [108]
+  },
+  "db": {
+    "username": "secure-user",
+    "password": "secure-password",
+    "host": "super-cluster"
+  },
+  "app": {
+    "views": {
+      "cache": true
+    }
+  }
+}

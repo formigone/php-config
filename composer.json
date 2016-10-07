@@ -1,0 +1,14 @@
+{
+  "name": "rsilveira/php-config",
+  "authors": [
+    {
+      "name": "Rodrigo Silveira",
+      "email": "rsilveira@deseretdigital.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Formigone\\": "src/Formigone"
+    }
+  }
+}
