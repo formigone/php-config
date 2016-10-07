@@ -75,3 +75,12 @@ $appVersion = $config->get('appVersion');
 $db = $config->get('db');
 $shouldCacheViews = $config->get('app.views.cache');
 ```
+
+### Why reinvent the wheel?
+
+So this project essentially mimics [ZF1's Zend_Config](https://github.com/zf1/zend-config), which allows for inheritable configs. Why use this instead?
+
+ + Why use JSON?
+     + So configs can be shared across PHP and JavaScript/Node.js
+ + Why not use Zend_Config_Json?
+     + Because I particularly prefer to have each config type in a separate file, and have the package merge the files together
