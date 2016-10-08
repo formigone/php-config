@@ -1,9 +1,9 @@
 {
-  "name": "rsilveira/php-config",
+  "name": "formigone/php-config",
   "authors": [
     {
       "name": "Rodrigo Silveira",
-      "email": "rsilveira@deseretdigital.com"
+      "email": "webmaster@rodrigo-silveira.com"
     }
   ],
   "autoload": {
