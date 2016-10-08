@@ -67,9 +67,9 @@ You'll then have a single config object for whatever environment you're in, wher
 
 ```php
 $env = getenv('APP_ENV');
-$appRootPath = __DIR__;
+$configPath = __DIR__ . '/config';
 
-$config = new Formigone\Config($env, $appRootPath);
+$config = new Formigone\Config($env, $configPath);
 
 $appVersion = $config->get('appVersion');
 $db = $config->get('db');

@@ -14,8 +14,8 @@ class Config
     {
 
         $this->baseDir = $baseDir;
-        $defaultConfig = $baseDir.'/config/default.json';
-        $envConfig = $baseDir.'/config/'.$env.'.json';
+        $defaultConfig = $baseDir.'/default.json';
+        $envConfig = $baseDir.'/'.$env.'.json';
         $config = [];
 
         if (file_exists($defaultConfig)) {

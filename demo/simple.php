@@ -6,7 +6,7 @@ use Formigone\Config;
 
 $env = getenv('APP_ENV') ?: 'development';
 
-$config = new Config($env, __DIR__);
+$config = new Config($env, __DIR__ . '/config');
 
 $all = $config->get();
 echo '<', $env, '>  all:', PHP_EOL;
