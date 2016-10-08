@@ -83,4 +83,4 @@ So this project essentially mimics [ZF1's Zend_Config](https://github.com/zf1/ze
  + Why use JSON?
      + So configs can be shared across PHP and JavaScript/Node.js
  + Why not use Zend_Config_Json?
-     + Because I particularly prefer to have each config type in a separate file, and have the package merge the files together
+     + Because Zend_Config_Json only parses a single file. That works fine in PHP, but if you use something in Node.js like node-config (which is what I happen to use), the you can't reuse the same config files. Given my specific use case (where I'm reusing configs and starting off with node-config), this makes sense, and hence my need for this package.
